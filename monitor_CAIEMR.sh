@@ -19,7 +19,6 @@
 
 ######## start customization
 REGIONE="EMR"
-CANALE=CAI$REGIONE
 CANALE=CAIEMR
 #AREACODE=3600000000 + <see areacodes file>
 AREACODE=3600042611
