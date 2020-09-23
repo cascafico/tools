@@ -20,7 +20,7 @@
 ######## start customization
 REGIONE="EMR"
 CANALE=CAIEMR
-#AREACODE=3600000000 + <see areacodes file>
+#AREACODE=3600000000 + <lookup query: http://overpass-turbo.eu/s/FwF >
 AREACODE=3600042611
 TELEGRAMCLIPATH=/home/pi/apps/tg/bin/
 WORKINGPATH=/tmp
