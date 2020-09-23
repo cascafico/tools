@@ -1,7 +1,10 @@
 # script monitors specific OSM elements modified during last 24h
-# query: http://overpass-turbo.eu/s/Fr0
+# if changesets!=0, telegram will send a message to $CANALE links to achavi
 
-# if changesets!=0, telegram message to $CANALE will be sent with links to achavi
+# specific OSM elements are queried at row 48 (curl -G)
+# please, customize query: 
+# http://overpass-turbo.eu/s/Fr0 then export "compact" query
+# copy query link & replace in curl  between '' 
 
 # REQUIRES 
 #  telegram-cli installed 
